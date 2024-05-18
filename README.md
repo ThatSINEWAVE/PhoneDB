@@ -19,51 +19,52 @@ PhoneDB aims to create a comprehensive database of every possible phone number o
 <details>
   <summary>Click to expand the list of Romanian area codes</summary>
 
-  |         REGION        |   CODE    |
-  |:---------------------:|:---------:|
-  |   Bucharest Capital   |   021    |
-  |      Ilfov County     |   031    |
-  |     Suceava County    |   230    |
-  |    Botoșani County    |   231    |
-  |      Iași County      |   232    |
-  |      Neamț County     |   233    |
-  |      Bacău County     |   234    |
-  |     Vaslui County     |   235    |
-  |     Galați County     |   236    |
-  |     Vrancea County    |   237    |
-  |      Buzău County     |   238    |
-  |     Brăila County     |   239    |
-  |     Tulcea County     |   240    |
-  |    Constanța County   |   241    |
-  |    Călărași County    |   242    |
-  |    Ialomița County    |   243    |
-  |     Prahova County    |   244    |
-  |    Dâmbovița County   |   245    |
-  |     Giurgiu County    |   246    |
-  |    Teleorman County   |   247    |
-  |      Argeș County     |   248    |
-  |       Olt County      |   249    |
-  |      Dolj County      |   250    |
-  |    Mehedinți County   |   251    |
-  |      Gorj County      |   252    |
-  |     Vâlcea County     |   253    |
-  |    Hunedoara County   |   254    |
-  |  Caraș-Severin County |   255    |
-  |      Timiș County     |   256    |
-  |      Arad County      |   257    |
-  |      Alba County      |   258    |
-  |      Bihor County     |   259    |
-  |    Satu Mare County   |   260    |
-  |    Maramureș County   |   261    |
-  |      Sălaj County     |   262    |
-  | Bistrița-Năsăud County |   263    |
-  |      Cluj County      |   264    |
-  |      Mureș County     |   265    |
-  |    Harghita County    |   266    |
-  |     Covasna County    |   267    |
-  |     Brașov County     |   268    |
-  |     Sibiu County      |   269    |
+  |         REGION        |   CODE    |  INDEXED  |
+  |:---------------------:|:---------:|:---------:|
+  |   Bucharest Capital   |   021     |    ✅     |
+  |      Ilfov County     |   031     |    ✅     |
+  |     Suceava County    |   230     |    ✅     |
+  |    Botoșani County    |   231     |    ✅     |
+  |      Iași County      |   232     |    ✅     |
+  |      Neamț County     |   233     |    ✅     |
+  |      Bacău County     |   234     |    ✅     |
+  |     Vaslui County     |   235     |    ✅     |
+  |     Galați County     |   236     |    ✅     |
+  |     Vrancea County    |   237     |    ✅     |
+  |      Buzău County     |   238     |    ✅     |
+  |     Brăila County     |   239     |    ✅     |
+  |     Tulcea County     |   240     |    ✅     |
+  |    Constanța County   |   241     |    ✅     |
+  |    Călărași County    |   242     |    ✅     |
+  |    Ialomița County    |   243     |    ✅     |
+  |     Prahova County    |   244     |    ✅     |
+  |    Dâmbovița County   |   245     |    ✅     |
+  |     Giurgiu County    |   246     |    ✅     |
+  |    Teleorman County   |   247     |    ✅     |
+  |      Argeș County     |   248     |    ✅     |
+  |       Olt County      |   249     |    ✅     |
+  |      Dolj County      |   250     |    ✅     |
+  |    Mehedinți County   |   251     |    ✅     |
+  |      Gorj County      |   252     |    ✅     |
+  |     Vâlcea County     |   253     |    ✅     |
+  |    Hunedoara County   |   254     |    ✅     |
+  |  Caraș-Severin County |   255     |    ✅     |
+  |      Timiș County     |   256     |    ✅     |
+  |      Arad County      |   257     |    ✅     |
+  |      Alba County      |   258     |    ✅     |
+  |      Bihor County     |   259     |    ✅     |
+  |    Satu Mare County   |   260     |    ✅     |
+  |    Maramureș County   |   261     |    ✅     |
+  |      Sălaj County     |   262     |    ✅     |
+  | Bistrița-Năsăud County |   263    |    ✅     |
+  |      Cluj County      |   264     |    ✅     |
+  |      Mureș County     |   265     |    ✅     |
+  |    Harghita County    |   266     |    ✅     |
+  |     Covasna County    |   267     |    ✅     |
+  |     Brașov County     |   268     |    ✅     |
+  |     Sibiu County      |   269     |    ✅     |
 </details>
+
 
 - Each area code has its own folder named in the format `(AREA_CODE)_NUMBERS`, containing 10 zip files. Each zip file includes a JSON file with either 1 million or 10 million unique numbers, depending on the area code. Specifically, the 07 area code has 10 million numbers per zip file, while the others have 1 million numbers per zip file.
 
